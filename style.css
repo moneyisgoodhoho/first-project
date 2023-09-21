@@ -1,0 +1,91 @@
+body{
+margin: 0;
+font-family: 'Libre Baskerville', serif;}
+
+.Dream{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:rgb(52, 50, 141);
+padding: 8px 12px;}
+
+a {text-decoration: none;
+  color: white;}
+
+.Dream_logo
+{ color: white;
+  font-size: 24px;
+  }
+
+.Dream_logo i {
+color: chartreuse;}
+
+.Dream_menu{
+  list-style: none;
+ display: flex;
+ padding: 0px;
+}
+
+.Dream_menu li{
+padding: 8px 10px;
+font-size: 20px;}
+
+.Dream_menu li:hover{
+background-color:yellowgreen;
+border-radius: 5px;}
+
+.Dream_SNS{
+  display: flex;
+  color:red;
+  list-style: none;
+  padding-left: 0;
+}
+
+.Dream_SNS li {
+padding: 8px 10px;
+
+
+}
+.Dream_burger{
+display: none;
+position: absolute;
+font-size: 20px;
+right: 10px;
+top: 20px;
+color: aqua;
+}
+@media screen and (max-width: 780px){
+.Dream {
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.Dream_burger{
+display: flex;
+color: aqua;
+}
+
+.Dream_menu{
+  display: none;
+  flex-direction: column;
+  align-items: center;
+   width: 100%;
+  
+}
+.Dream_menu li {
+padding: 15px;
+width: 100%;
+text-align: center;}
+
+.Dream_SNS {
+  display: none;
+  justify-content: center;  
+width: 100%;
+
+}
+
+}
+
+
+
+
